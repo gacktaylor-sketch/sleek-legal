@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sleek — Using Sleek with OpenRouter</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #000; color: #ECECEC;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 22px 96px; }
+  h1 { font-size: 30px; font-weight: 700; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .updated { color: #8E8E93; font-size: 14px; margin: 0 0 36px; }
+  h2 { font-size: 19px; font-weight: 600; margin: 38px 0 10px; color: #fff; }
+  p, li { color: #C9C9CE; font-size: 16px; }
+  a { color: #8B7FFF; }
+  ol, ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .callout {
+    border: 1px solid #2A2A2A; background: #0E0E10; border-radius: 14px;
+    padding: 18px 20px; margin: 24px 0;
+  }
+  .callout h2 { margin-top: 0; }
+  strong { color: #ECECEC; }
+  code {
+    background: #17171A; border: 1px solid #2A2A2A; border-radius: 6px;
+    padding: 1px 6px; font-size: 14px; color: #ECECEC;
+  }
+  .foot { color: #6E6E73; font-size: 13px; margin-top: 48px; }
+  .foot a { color: #6E6E73; text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Using Sleek with OpenRouter</h1>
+  <p class="updated">How to connect your OpenRouter account or API key</p>
+
+  <div class="callout">
+    <h2>What Sleek is</h2>
+    <p><strong>Sleek</strong> is a native iOS client for
+    <a href="https://openrouter.ai">OpenRouter</a>. You bring your own OpenRouter
+    key, and Sleek lets you chat with every model OpenRouter offers from a fast,
+    native app — with SillyTavern character-card import and history stored only on
+    your device. Sleek has no account and no servers of its own; it talks directly
+    to OpenRouter using your key.</p>
+  </div>
+
+  <h2>Getting connected</h2>
+  <p>There are two ways to give Sleek an OpenRouter key. Either works — pick one.</p>
+
+  <h2>Option 1 — Connect your OpenRouter account</h2>
+  <ol>
+    <li>Open Sleek and go to <strong>Settings</strong>.</li>
+    <li>Tap <strong>Connect OpenRouter</strong>.</li>
+    <li>A secure web sheet opens on <code>openrouter.ai</code>. Sign in (or create
+    a free OpenRouter account if you don't have one) and approve access.</li>
+    <li>OpenRouter mints a key for Sleek automatically and hands you back to the
+    app. You're ready to chat.</li>
+  </ol>
+
+  <h2>Option 2 — Paste an API key</h2>
+  <ol>
+    <li>Sign in at <a href="https://openrouter.ai/keys">openrouter.ai/keys</a> and
+    create a new API key.</li>
+    <li>Copy the key (it begins with <code>sk-or-</code>).</li>
+    <li>In Sleek, go to <strong>Settings → Manage API Keys</strong> and paste it in.</li>
+  </ol>
+
+  <h2>Adding credit</h2>
+  <p>Model usage is billed by OpenRouter to your own OpenRouter account, at
+  OpenRouter's own rates — Sleek adds no markup and takes no payment. Add credit
+  on your <a href="https://openrouter.ai/credits">OpenRouter credits page</a>.
+  Many models also have free tiers you can use right away.</p>
+
+  <h2>Where your key lives</h2>
+  <p>Your key is stored only on your device and is sent only to OpenRouter's API
+  to make the requests you ask for. It never goes to us — Sleek has no servers.
+  See the <a href="./privacy.html">Privacy Policy</a> for details.</p>
+
+  <h2>Help</h2>
+  <p>Questions or problems? Email
+  <a href="mailto:gacktaylor@gmail.com">gacktaylor@gmail.com</a>.</p>
+
+  <p class="foot">
+    <a href="https://apps.apple.com/us/app/sleek-byok/id6786075866">Sleek on the App Store</a>
+    &nbsp;·&nbsp;
+    <a href="./privacy.html">Privacy</a>
+    &nbsp;·&nbsp;
+    <a href="./terms.html">Terms</a>
+  </p>
+</div>
+</body>
+</html>
